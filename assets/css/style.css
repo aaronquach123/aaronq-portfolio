@@ -1,6 +1,6 @@
 :root {
     --primary-color: #ffffff;
-    
+    --secondary-color: #ffb600;
     --tertiary-color: #000000;
 }
 
@@ -22,6 +22,7 @@ header {
 
 header h1 {
     margin: 0;
+    color: var(--secondary-color);
 }
 
 header nav {
@@ -40,6 +41,7 @@ header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.3vw;
+    color: var(--secondary-color);
 }
 
 header a {
@@ -50,26 +52,33 @@ header a {
 
 .hero {
     display: flex;
+    justify-content: center;
 }
 
 .hero-intro {
     text-align: left;
     margin: 2%;
     line-height: 1.6;
-    color: var(--primary-color);
+
 }
 
-.hero-intro a {
+.hero-work {
     display: flex;
     text-decoration: none;
-    margin-top: 20px;
-    padding: 5px;
+    justify-content: center;
+    padding: 4.25px;
     border: 1.5px solid var(--primary-color);
-    width: fit-content;
+    width: 200px;
+}
+
+.hero-strengths {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
 }
 
 .hero img{
-    justify-self: right;
+    justify-self: center;
     padding: 15px;
     width: 25%;
     height: 50%;
