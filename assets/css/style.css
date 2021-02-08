@@ -50,14 +50,27 @@ header a {
 
 .hero {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: flex-start;
 }
 
 .hero-intro {
-    width: 40%;
-    text-align: center;
-    margin: 4%;
+    text-align: left;
+    margin: 2%;
+    line-height: 1.6;
     color: var(--primary-color);
+}
+
+.hero-intro a {
+    display: flex;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 5px;
+    border: 1.5px solid var(--primary-color);
+    width: fit-content;
+}
+
+.hero img{
+    justify-self: right;
+    padding: 15px;
+    width: 25%;
+    height: 50%;
 }
