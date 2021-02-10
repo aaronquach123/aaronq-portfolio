@@ -43,7 +43,7 @@ header {
     top: 0;
     background-image: url("../images/hero-background.jpg");
     background-size: cover;
-    background-position: 50%;
+    background-position: 80% 120%;
     background-attachment: fixed;
 }
 
