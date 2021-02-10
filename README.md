@@ -10,13 +10,15 @@
   
 ## Installation
   Deployment url below! or if you would like to pull the code and see for yourself,
-  git clone "repo url"
+  git clone "https://github.com/aaronquach123/aaronq-portfolio.git"
 ## Usage
   Please feel free to submit issues with my code if you see any way I can streamline it or improve it!
 ## Deployment
 https://aaronquach123.github.io/aaronq-portfolio/
 
 ## Screenshots
-![Screenshot of wireframe](./assets/images/screenshots/wireframe.PNG "Wireframe")
+![Screenshot of wireframe](./assets/images/screenshots/wireframe.JPG "Screenshot of wireframe")
+![Screenshot of utility code](./assets/images/screenshots/utilitycss.JPG "Screenshot of Utility classes")
 
 ## Credits
+I got my hero image from https://wallpaperscraft.com/download/code_lines_programming_130775/3840x2160 
