@@ -8,17 +8,40 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: var(--tertiary-color);
-    color: var(--primary-color);
-    box-sizing: border-box;
 }
+
+body {
+    color: var(--primary-color);
+    background-color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.secondary-border {
+    border-color: var(--secondary-color);
+}
+
+.section-title {
+    font-size: 48px;
+    color: var(--secondary-color);
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+
 /* Begin Header/Navbar */
 header {
-    padding: 20px 30px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    background-image: url("../images/hero-bg4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
 }
 
 header h1 {
@@ -41,7 +64,7 @@ header nav ul {
 header nav ul li a {
     padding: 10px 15px;
     font-weight: 300;
-    font-size: 3vw;
+    font-size: 1.25vw;
     color: var(--secondary-color);
 }
 
@@ -49,27 +72,95 @@ header a {
     text-decoration: none;
 }
 /* End Header/Navbar */
+
 /* Begin Hero Section */
 
 .hero {
-    background-image: url("../images/hero-img.jpg");
+    background-image: url("../images/hero-bg4.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
-    background-attachment: fixed;
-    background-position: 80%;
+    border-bottom: 2px solid var(--secondary-color);
 }
 
+.hero-strengths ul {
+    list-style-position: inside;
+    font-size: 1.25vw;
+}
 
+.hero-strengths a {
+    color: var(--secondary-color);
+    font-size: 1.25vw;
+}
 
+.hero-strengths {
+    text-align: center;
+    padding: 30px;
+}
 
+.hero-image {
+    display: flex;
+    flex: 1 25%;
+    padding: 10px;
+}
+
+.hero-image img {
+    max-width: 40%;
+    border: 4px solid var(--secondary-color);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
+}
 /* End Hero Section */
 
 /* Begin About me section */
 
 .about-me {
-    margin-top: 10px;       
+    margin-top: 20px; 
+    padding: 30px;
+    text-align: center;
 }
+
+.about-me p {
+    font-size: 1.5vw;
+    line-height: 1.25;
+}
+/* End About me section */
+
+/* Begin works section */
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.row {
+    width: 100%;
+    text-align: center;
+}
+
+.row img {
+    max-width: 40%;
+    max-height: 90%;
+    border: 5px solid var(--secondary-color);
+    border-radius: 50px;
+    margin: 20px;
+}
+
+.work-first {
+    text-align: center;
+}
+
+.work-first img {
+    max-width: 60%;
+    max-height: 100%;
+    border: 5px solid var(--secondary-color);
+    border-radius: 50px;
+    margin: 20px;
+}
+/* End works section */
+
+/* Begin contact section */

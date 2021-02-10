@@ -11,13 +11,14 @@
 
     <!--Begin header/nav section-->
     <header>
+        <h1>Aquach</h1>
         <nav>
             <ul>
                 <li>
                    <a href="#home">Home</a>
                 </li>
                 <li>
-                    <a href="#about">About</a>
+                    <a href="#about-me">About Me</a>
                 </li>
                 <li>
                     <a href="#contact">Contact</a>
@@ -28,32 +29,62 @@
     <!--End header/nav section-->
 
     <!--Begin Hero-->
-    <section class="hero">
+    <section class="hero" id ="home">
         <div class="hero-strengths">
-            <h2>Aaron Quach: Full Stack Student</h2> 
-                <ul>
-                    <li>
-                        Flexible
-                    </li>
-                    <li>
-                        Problem solver
-                    </li>
-                    <li>
-                        placeholder
-                    </li>
-                    <li>
-                        placeholder
-                    </li>
-                </ul> 
-                <a href="#work"><h3>View my Work ></h3></a>
+            <h2 class="section-title">Aaron Quach: Full Stack Student</h2> 
+            <ul>
+                <li>
+                    Dedicated
+                </li>
+                <li>
+                    Quick learner
+                </li>
+                <li>
+                    Team Player
+                </li>
+                <li>
+                    Intuitive
+                </li>
+            </ul>
+            <a href="#work"><h3>View my Work ></h3></a>
+        </div>
+        <div class="hero-image">
+            <img src="./assets/images/hero-profile.jpg" />
+        </div>
     </section>
-
-    <section class="about-me" id="#about-me">
-        <h3>About me</h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates eius molestiae reiciendis expedita cum iste quo in. Suscipit blanditiis dolorum et amet odit, inventore, hic architecto dignissimos voluptatibus necessitatibus illo.</p>
-    </section>
-
-    <section class="my-work" id="#work">
+    <!--End Hero-->
+    <body>
         
-    </section>
+        <!--Begin about me-->
+        <section class="about-me" id="about-me">
+            <h3 class="section-title">About me</h3>
+            <p>
+                Hi, I'm Aaron! I am a college student studying for a degree in comp sci and a UC Berekely Full Stack Web Development Bootcamp student. Currently I am looking to obtain my 2 year degree and transfer to a good university for Computer Science. 
+                My goal is to gather as much knowledge as I can of the field and get ahead of the curve by having my foot in the door. The purpose of my Portfolio is to show my technical knowledge in html and css. I will be updating my 
+                <a href="#work">
+                    works tab
+                </a>
+                periodically to showcase new skills that I have acquired so please check back whenever you can! Thank you!
+            </p>
+        </section>
+        <!--End about me-->
+
+        <section class="wrapper" id="work">
+            <h4 class="section-title">My Work</h4>
+            <div class="work-first">
+                <a href="https://aaronquach123.github.io/run-buddy/" target="_blank">
+                    <img src="./assets/images/work-run-buddy.JPG" class="work-first"/>
+                </a>
+            </div>
+            <div class="row">
+                <a href="https://aaronquach123.github.io/coderefactor/" target="_blank">
+                    <img src="./assets/images/work-horiseon.JPG" />
+                   </a>
+                <a href="https://aaronquach123.github.io/run-buddy/" target="_blank">
+                    <img src="./assets/images/work-run-buddy.JPG">
+                </a>
+            </div>
+        </section>
+    </body>
+
  </html>
